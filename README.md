@@ -1,8 +1,9 @@
 # pandas-challege
 analysing school data using pandas
 
-#PyCitySchools Analysis
-Analysis
+# PyCitySchools Analysis
+
+## Analysis
 The “PyCitySchools” analysis was conducted on student performance from fifteen schools. The data was collected from two csv documents , merged together. 
 The sample consisted of 39,170 students. Each student’s performance was evaluated based on a reading score and math score. Further information was supplied relating to each student’s school, their grade, and their school’s budget. At first these values were calculated together before a selection of more focused analyses were performed. 
 In the School Summary, student performance in reading and math were averaged for each of the fifteen schools. Each school was additionally labeled as a “District” or “Charter” school and set as part of the index. 
@@ -11,6 +12,6 @@ This finding was further supported when looking at the five highest schools by %
 When looking at the student population for these schools, it is clear that there is are significantly more students at each of the District schools. For the most part, there was not a large discrepancy between the budget applied per student. If anything, the Charter schools spend less money per student, as displayed in “school_spending_df”. To add on, the oddest trend demonstrated by the data and spending ranges correlation was that the students who performed better had less money spent on them. However, we are unclear as to how the money is allocated and it if is actually spent on each student equally. District schools may have special programs to accommodate students who face learning challenges, who are considered gifted and even social programs such as a hot breakfast. 
 Student performance in mathematics also differed depending on the size of the school. Average math scores declined when student population rose over the 2000 student mark. There was a similar trend in reading, but not as far apart. The score totals were also calculated to see the differences between Charter and District schools. As mentioned previously, the Charter Schools outperformed the District schools. The contrasts in scores was more pronounced in the math category, but nevertheless, there is also a noticeable difference between reading scores. As expected, this can be seen through the % Overall Scores with 90% or Charter school students passing both classes and only 53% of District schools passing both. 
 
-#Drawing Conclusions
+## Drawing Conclusions
 Based on this information, it can be concluded that students are more likely to succeed in both reading and mathematics if they attend a Charter school. Students in District schools perform better in reading by about 15% but still fall behind their peers at Charter schools.
 Another conclusion that can be drawn is that school size can impact performance. Once again, there was a pretty large discrepancy between math and reading performance.  In both cases, there is a large decline in performance scores in the largest school size category, 2000 to 5000 students. Students may feel more comfortable in smaller settings or perhaps may be able to develop stronger bonds with teachers in smaller settings. Larger school settings can feel overwhelming and lack the community feel of a smaller setting. These numbers show that students could very well get lost in the cracks of a larger school setting. 
